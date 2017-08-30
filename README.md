@@ -2,7 +2,7 @@
 
 Code used by 2 robots that can play soccer autonomously. 
 
-// todo add images
+![](https://github.com/nicomazz/Soccer-Robots/blob/master/20160219_172459.jpg)
 
 The two robots uses different microcontrollers (Arduino/Funduino) and a lot of different sensors.
 
@@ -13,7 +13,9 @@ The two robots uses different microcontrollers (Arduino/Funduino) and a lot of d
 
 # Microcontrollers
 
-//todo
+Gina: 1 Funduino mega, 1 funduino nano
+
+Gino: 1 Funduino nano
 
 # Competitions
 
