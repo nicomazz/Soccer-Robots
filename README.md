@@ -6,16 +6,36 @@ Code used by 2 robots that can play soccer autonomously.
 
 The two robots uses different microcontrollers (Arduino/Funduino) and a lot of different sensors.
 
-# Sensors
+# Components
 
-//todo
+Gina (striker, sx in the top photo):
+- 1x Arduino Mega (Atmel ATmega2560)
+- 1x Arduino Nano (Atmel ATmega328)
+- 2x Half H-bridge L298 con relativa elettronica
+- 14x IR sensors (TSOP1736)
+- 1x Lux sensor I2C (TSL2561)
+- 2x RGB Color sensor (TCS3200)
+- 3x Motors (GHM-03)
+- 3x Omnidirectional wheels (Kornylak)
+- 1x Digital compass I2C (HMC5883)
+- 4x US sensor (HC-SR04) 
+![](https://github.com/nicomazz/Soccer-Robots/blob/master/logicaGINA.png)
+
+Gino (defender, dx in the top photo):
+- 1x Arduino Nano (Atmel ATmega328)
+- 2x L298 Breakout
+- 7x IR sensors (TSOP1736)
+- 1x Lux sensor I2C (TSL2561)
+- 2x RGB Color sensor (TCS3200)
+- 1x I2C I/O Expander (PCF8574)
+- 3x Motors (GHM-03)
+- 3x Omnidirectional wheels (Kornylak)
+- 1x Digital compass I2C (HMC5883)
+- 4x US sensor (HC-SR04) 
+- 1x Multiplexer (74HC4067)
+![](https://github.com/nicomazz/Soccer-Robots/blob/master/logicaGINO.png)
 
 
-# Microcontrollers
-
-Gina: 1 Funduino mega, 1 funduino nano
-
-Gino: 1 Funduino nano
 
 # Competitions
 
