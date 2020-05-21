@@ -2,7 +2,10 @@
 
 Code used by 2 robots that can play soccer autonomously. 
 
+<img src="https://github.com/nicomazz/Soccer-Robots/blob/master/robots.gif" width="100%">
+
 ![](https://github.com/nicomazz/Soccer-Robots/blob/master/20160219_172459.jpg)
+
 
 The two robots use different microcontrollers (Arduino/Funduino) and a lot of different sensors.
 
